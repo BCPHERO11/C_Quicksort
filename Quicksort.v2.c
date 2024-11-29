@@ -42,6 +42,8 @@ int main(){
    for (i = 0; i < n; i++) {
       arr[i] = rand() % n;
    }
+   printf("The unsorted array is: \n");
+   printArray(arr, n);
    
    quickSort(arr, 0, n-1);
 
